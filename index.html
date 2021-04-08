@@ -7,7 +7,16 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="main.css">
+   <link rel="stylesheet" href="style/main/main__basic.css">
+   <link rel="stylesheet" href="style/normalize.css">
+   <link rel="stylesheet" href="style/main/main__header.css">
+   <link rel="stylesheet" href="style/main/main__main.css">
+   <link rel="stylesheet" href="style/main/main__hello.css">
+   <link rel="stylesheet" href="style/main/main__preview.css">
+   <link rel="stylesheet" href="style/main/main__news.css">
+   <link rel="stylesheet" href="style/main/main__pagination.css">
+   <link rel="stylesheet" href="style/main/main__about.css">
+   <link rel="stylesheet" href="style/main/main__footer.css">
    <title>Document</title>
 </head>
 
@@ -18,8 +27,8 @@
             <a href="#" class="logo"><img src="img/logo.png" alt="logo" class="logo__pic"></a>
             <nav class="menu">
                <ul class="menu__list">
-                  <li class="menu__item menu__item--active"><a href="#" class="menu__link">Главная</a></li>
-                  <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                  <li class="menu__item menu__item--active"><a href="/index.html" class="menu__link">Главная</a></li>
+                  <li class="menu__item"><a href="/services.html" class="menu__link">Услуги</a></li>
                   <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
                </ul>
             </nav>
@@ -61,9 +70,12 @@
                            <li class="features__item">От <b>7</b> человек на проэкт</li>
                            <li class="features__item"><b>21</b> дней работы в среднем</li>
                         </ul>
-                        <div class="features__text">Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur
+                        <div class="features__text">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur
                            adipisicing elit consectetur
-                           adipisicing elit. </div><a href="#" class="button">ПОДРОБНЕЕ</a>
+                           adipisicing elit.
+                        </div>
+                        <a href="#" class="button">ПОДРОБНЕЕ</a>
                      </div>
                   </li>
                   <li class="preview__item">
@@ -128,9 +140,12 @@
                      <h2 class="about__title">О НАС</h2>
                      <div class="about__text">
                         <p>
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam magnam minima
-                           laudantium, illum earum, veniam dolor fugiat id eos autem quidem asperiores? Quos, fugit
-                           aliquam. Aspernatur accusamus dolorem nam neque maiores dignissimos. Voluptatibus, tempore.
+                           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et ipsam reprehenderit tenetur
+                           vitae error est iusto vel, id, sapiente odit tempora vero eum veniam adipisci dignissimos
+                           dolor libero harum excepturi mollitia porro? Amet asperiores harum quasi. Qui fugiat quas
+                           iure? Amet asperiores harum quasi. Qui fugiat quas iure? Amet asperiores harum quasi. Qui
+                           fugiat quas
+                           iure?
                         </p>
                      </div>
                      <a href="#" class="button">ПОДРОБНЕЕ</a>
@@ -140,10 +155,8 @@
          </section>
       </main>
 
-
       <footer class="footer">
-         <div class="container">
-            <a href="#" class="logo"><img src="img/logo.png" alt="logo" class="logo"></a>
+         <div class="container"><a href="#" class="logo"><img src="img/logo.png" alt="logo" class="logo"></a>
             <nav class="menu">
                <ul class="menu__list">
                   <li class="menu__item menu__item--active"><a href="#" class="menu__link">Главная</a></li>
@@ -152,34 +165,21 @@
                </ul>
             </nav>
             <ul class="social__icon">
-               <li class="social__icon__item">
-                  <a href="#" class="social__icon__link">
-                     <img src="img/telegram.png" alt="telegram" class="social__icon__pic">
-                  </a>
-               </li>
-               <li class="social__icon__item">
-                  <a href="#" class="social__icon__link">
-                     <img src="img/vk.png" alt="vk" class="social__icon__pic">
-                  </a>
-               </li>
-               <li class="social__icon__item">
-                  <a href="#" class="social__icon__link">
-                     <img src="img/f.png" alt="facebook" class="social__icon__pic">
-                  </a>
-               </li>
-               <li class="social__icon__item">
-                  <a href="#" class="social__icon__link">
-                     <img src="img/in.png" alt="instagram" class="social__icon__pic">
-                  </a>
-               </li>
+               <li class="social__icon__item"><a href="#" class="social__icon__link"><img src="img/telegram.png"
+                        alt="telegram" class="social__icon__pic"></a></li>
+               <li class="social__icon__item"><a href="#" class="social__icon__link"><img src="img/vk.png" alt="vk"
+                        class="social__icon__pic"></a></li>
+               <li class="social__icon__item"><a href="#" class="social__icon__link"><img src="img/f.png" alt="facebook"
+                        class="social__icon__pic"></a></li>
+               <li class="social__icon__item"><a href="#" class="social__icon__link"><img src="img/in.png"
+                        alt="instagram" class="social__icon__pic"></a></li>
             </ul>
             <address class="contacts">
-               <div class="footer__text">Бесплатный звонок по России</div>
-               <a href="tel:+78007003030" class="contact__phone">8 800 700 30 30</a>
+               <div class="footer__text">Бесплатный звонок по России</div><a href="tel:+78007003030"
+                  class="contact__phone">8 800 700 30 30</a>
             </address>
          </div>
       </footer>
-
    </div>
 </body>
 
