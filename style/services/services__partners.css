@@ -8,5 +8,25 @@
    font-weight: bold;
    font-size: 48px;
    line-height: 65px;
-   padding-bottom: 70px;
+   padding-bottom: 76px;
+}
+
+.partners__img {
+   opacity: 0.5;
+}
+
+.partners__img:hover {
+   opacity: 1;
+   transition: 0.4s;
+}
+
+.partners__item {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-bottom: 64px;
+}
+
+.partners__item:last-child {
+   padding-bottom: 9px;
 }
