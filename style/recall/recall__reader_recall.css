@@ -1,0 +1,90 @@
+.reader__recall {
+   background: #F4F5F5;
+   color: #000;
+
+}
+
+.reader__recall__title {
+   font-weight: 800;
+   font-size: 36px;
+   line-height: 49px;
+   padding: 56px 0;
+}
+
+.form__row {
+   display: flex;
+   margin-bottom: 30px;
+}
+
+.form__input {
+   flex: 1;
+   margin-right: 30px;
+   border-radius: 4px;
+   border: none;
+   background: #fff;
+   padding: 20px 30px;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+.form__input::placeholder {
+   color: #666666;
+}
+
+.form__input:last-child {
+   margin-right: 0;
+}
+
+.form__input--textarea {
+   height: 232px;
+}
+
+.controls__elem {
+   cursor: pointer;
+}
+
+.controls__checkbox:checked~.controls__tag {
+   background: #F2D4C9;
+}
+
+.controls__checkbox {
+   display: none;
+}
+
+.form__controls {
+   display: flex;
+   margin-bottom: 35px;
+}
+
+.form__controls-title {
+   width: 440px;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+.controls {
+   display: flex;
+   flex: 1;
+   flex-wrap: wrap;
+}
+
+.controls-item {
+   margin-bottom: 10px;
+   margin-right: 20px;
+}
+
+.form__btns {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.form__button {
+   margin-right: 10px;
+   margin-bottom: 30px;
+}
+
+.form__button:last-child {
+   margin-right: 0px;
+}

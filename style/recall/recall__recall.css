@@ -1,0 +1,89 @@
+.recall {
+   color: #000;
+   padding-top: 95px;
+}
+
+.recall__list {
+   column-count: 2;
+   column-gap: 30px;
+}
+
+.recall__item {
+   padding: 50px 30px;
+   background: #F4F5F5;
+   margin-bottom: 20px;
+}
+
+.item__userPhoto {
+   width: 142px;
+   height: 142px;
+   overflow: hidden;
+   border-radius: 50%;
+}
+
+.item__header {
+   display: flex;
+   align-items: center;
+   margin-bottom: 26px;
+}
+
+.item__userdate {
+   padding: 0 20px;
+}
+
+.item__name {
+   display: flex;
+   align-items: center;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 42px;
+   color: #2E77A4;
+   margin-bottom: 11px;
+}
+
+.item__name:after {
+   content: url(../../img_recall/vk-blue.png);
+   height: 29px;
+   padding: 8px;
+}
+
+.item__tags {
+   display: flex;
+   align-items: flex-start;
+}
+
+.tags {
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 18px;
+   background: #E7E7E7;
+   border-radius: 20px;
+   padding: 10px 15px;
+}
+
+.tags--active {
+   background: #F2D4C9;
+}
+
+.recall_colomn {
+   display: inline-flex;
+   flex-direction: column;
+}
+
+.content__title {
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 42px;
+   padding-bottom: 13px;
+}
+
+.content__text {
+   padding-bottom: 18px;
+   line-height: 27px;
+}
+
+.content__date {
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 27px;
+}

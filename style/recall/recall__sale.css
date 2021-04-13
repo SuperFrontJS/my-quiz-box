@@ -1,0 +1,11 @@
+.sale {
+   background: url(/../img_recall/party.png) center top no-repeat, #17191C;
+   height: 363px;
+}
+
+.sale__title {
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 65px;
+   padding: 115px 0;
+}
