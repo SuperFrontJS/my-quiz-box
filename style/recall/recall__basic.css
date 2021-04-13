@@ -1,0 +1,102 @@
+body {
+   font-family: 'Open Sans', sans-serif;
+   color: #fff;
+   font-size: 16px;
+   line-height: 1.42;
+
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+   color: inherit;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+p {
+   margin-top: 0;
+}
+
+ul li {
+   list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+   font-weight: normal;
+}
+
+.wrapper__recall--page {
+   background: url(../../img_services/top-line.png) center top no-repeat;
+}
+
+.white__background {
+   background-color: #fff;
+}
+
+.gray__babackground {
+   background-color: #F4F5F5;
+}
+
+.container {
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+   width: 1142px;
+}
+
+.container--colomn {
+   flex-direction: column;
+}
+
+.container--noflex {
+   display: block;
+}
+
+button {
+   background: transparent;
+   border: none;
+   cursor: pointer;
+}
+
+.button {
+   font-size: 14px;
+   background: #FF5500;
+   border-radius: 35px;
+   padding: 16px 53px;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-decoration: none;
+   transition: 0.5s;
+   color: #fff;
+}
+
+.button__grey {
+   font-size: 14px;
+   background: #8E8E8E;
+   border-radius: 35px;
+   padding: 16px 53px;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-decoration: none;
+   transition: 0.5s;
+   color: #fff;
+}
+
+.button__grey:hover {
+   background: #2B2B2B;
+
+}
+
+.button:hover {
+   background: #FF3D00;
+}

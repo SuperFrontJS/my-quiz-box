@@ -1,0 +1,31 @@
+.footer {
+   padding: 0;
+   background: #17191C;
+}
+
+.footer .container {
+   padding-top: 50px
+}
+
+.social__icon {
+   display: flex;
+   justify-content: space-between;
+   min-width: 174px;
+}
+
+.social__icon__link {
+   display: flex;
+}
+
+.social__icon__item {
+   opacity: 0.55;
+}
+
+.social__icon__item:hover {
+   opacity: 1;
+   transition: 0.5s;
+}
+
+.footer__text {
+   font-size: 11px;
+}
