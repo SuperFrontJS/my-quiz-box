@@ -6,26 +6,65 @@
    padding-top: 50px
 }
 
-.social__icon {
-   display: flex;
-   justify-content: space-between;
-   min-width: 174px;
-
+.footer__text {
+   font-size: 11px;
 }
 
-.social__icon__link {
+.social__icon {
    display: flex;
 }
 
 .social__icon__item {
-   opacity: 0.55;
+   width: 36px;
+   height: 36px;
+   border-radius: 50%;
+   margin-right: 10px;
+   position: relative;
+   opacity: 0.5;
+}
+
+.social__icon__item:after {
+   content: "";
+   display: block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
 }
 
 .social__icon__item:hover {
    opacity: 1;
-   transition: 0.5s;
+   transition: .3s;
 }
 
-.footer__text {
-   font-size: 11px;
+
+.bg-telegram {
+   width: 36px;
+   height: 36px;
+   background: url('../../img/css_sprites.png') -10px -10px;
+}
+
+.bg-vk {
+   width: 36px;
+   height: 36px;
+   background: url('../../img/css_sprites.png') -66px -10px;
+}
+
+.bg-f {
+   width: 36px;
+   height: 36px;
+   background: url('../../img/css_sprites.png') -10px -66px;
+}
+
+.bg-in {
+   width: 36px;
+   height: 36px;
+   background: url('../../img/css_sprites.png') -66px -66px;
+}
+
+.social__icon__link {
+   width: 100%;
+   height: 100%;
+   display: block;
 }
